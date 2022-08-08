@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(99,167,247,1) 100%);
+    }
+
+main {
+    width: 730px;
+    margin: 50px auto 50px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 290px;
+    height: 400px;
+    padding: 0 15px;
+}
+
+.estadisticas {
+    border: 1px solid white;
+    width: 290px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.estadisticas span {
+    font-size: 30px;
+}
+
+#aciertos span, #movimientos span {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
